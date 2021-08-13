@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  background-color: #343435;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+.inner {
+  background-color: #d35400;
+  background-color: #8e44ad;
+  margin: auto;
+  display: flex;
+  width: 65%;
+  height: 77%;
+}
+.box {
+  
+  background-color: #1abc9c;
+  width: 65%;
+  height: 77%;
+  margin: auto;
+  display: flex-row;
+}
+.box img {
+  float: right;
+  cursor: pointer;
+  animation: rotates 1s linear alternate;
+}
+@keyframes rotates{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+
+  }
+}
+
+.image {
+  height: 56px;
+  width: 100%;
+}
+
+.text {
+    display: flex-column;
+    align-items: center;
+    justify-content: center;
+    height: 348px;
+    width: 100%;
+}
+#quotes{
+    font-size: 30px;
+    margin-left: 15px; 
+    margin-top: 35px;
+    padding: 20px;
+    font-family: 'Varela Round', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+    
+    
+}
+#author{
+    
+    float: right;
+    font-size: 20px;
+    margin-right: 15px; 
+    margin-top: 25px; 
+    font-family: 'Caveat', cursive;
+    padding: 7px;
+
+    
+}
+
+.tweetNow {
+    
+}
+.start-quote {
+    position: relative;
+    bottom: 24px;
+    right: -15px;
+    font-size: 50px;
+    opacity: 0.4;
+
+}
+.footerpart {
+    cursor: pointer;
+    background-color: #273c75;
+    color: white;
+    font-size: 22px;
+    height: 50px;
+    width: 100%;
+    text-align: center;   
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+#newQ{
+    padding: 15px;
+}
